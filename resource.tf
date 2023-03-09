@@ -95,3 +95,4 @@ resource "azurerm_subscription_policy_assignment" "tag_governance" {
   subscription_id      = data.azurerm_subscription.current.id
   identity { type = var.identity }
   location = var.location
+}
