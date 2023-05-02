@@ -16,7 +16,7 @@ terraform plan
 terraform apply
 ```
 input for location : centralus
-input for identity type : SysytemAssigned
+input for identity type : SystemAssigned
 input for policy name : policy-assignment
 
 
